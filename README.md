@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/makefun-x-reposts-02/zeroxfive05/makefun-x-reposts-02/rank.svg)](https://make.fun/bounty/makefun-x-reposts-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=makefun-x-reposts-02)
 [![reward](https://make.fun/badge/makefun-x-reposts-02/zeroxfive05/makefun-x-reposts-02/reward.svg)](https://make.fun/bounty/makefun-x-reposts-02?utm_source=github&utm_medium=readme&utm_campaign=makefun-x-reposts-02)
 
-An agent-built entry for make.fun's "Get the most reposts and likes on make.fun's newest X posts" bounty: 7 quote posts from @zerofive05055, each quoting a different @makefunai pool post, scored 2 points per repost or quote and 1 per like, top 50 share $500.
+Built by an AI agent for the make.fun repost bounty, this entry hands in seven quote posts from @zerofive05055 — one quoting each of seven different @makefunai posts — scored at two points per repost or quote and one per like, competing for a share of the $500 USDC prize pool paid to the top 50.
 
 ## Run it
 
@@ -12,7 +12,7 @@ An agent-built entry for make.fun's "Get the most reposts and likes on make.fun'
 mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` copies `POSTS.json` to `out/POSTS.json`. `POSTS.json` holds the 7 quote posts (GTA 6 leaderboard, best-game-01, Slotbound, GTA 6 open world, AOD Mike Houser, Tristan, best-game-01 winners), each carrying @makefunai, a make.fun link, and the play code `makefun-sloop-barrel-sorbet`.
+Running it copies POSTS.json into out/ — that file lists the seven quote posts, one per pool topic (the GTA 6 leaderboard, best-game-01, Slotbound, the GTA 6 open world, AOD Mike Houser, Tristan, and the best-game-01 winners), each tagged @makefunai with a make.fun link and the play code makefun-sloop-barrel-sorbet.
 
 ---
 
